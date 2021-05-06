@@ -1,6 +1,6 @@
 # Project Overview
 
-##  Multi languages verbs-transalator
+##  Multi language verbs-transalator
 
 
 ## Project Description
