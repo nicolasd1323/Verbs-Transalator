@@ -1,8 +1,7 @@
 # Project Overview
 
-## Verbs-Transalator
+##  Multi languages Verbs-Transalator
 
-The name of your project.
 
 ## Project Description
 
