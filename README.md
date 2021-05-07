@@ -109,9 +109,12 @@ https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlo
 ## SWOT Analysis
 
 ### Strengths: 
+Ability to manipulate API data on my application.
 
 ### Weaknesses:
+Time distribution to dedicated to each my specific part of my application.
 
 ### Opportunities:
-
+The opporunity to keep growing and becoming a better sofware engineer using react.
 ### Threats:
+Not being able to challenge myself more and having lack of ideas or creativity.
