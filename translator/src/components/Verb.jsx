@@ -1,5 +1,4 @@
 function Verb(props) {
-  // same as const country = props.destination.fields.country;
   const { english, spanish, italian, portuguese, image } = props.verb.fields;
   return (
     <div className="oneVerb">
