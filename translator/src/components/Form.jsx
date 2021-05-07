@@ -38,8 +38,11 @@ function Form(props) {
     };
     if (params.id) {
       const specificURL = `${baseURL}/${params.id}`;
-      await axios.post(specificURL, { fields: newVerb }, config);
-    } 
+      await axios.put(specificURL, { fields: newVerb}, config);
+    } else {
+      await axios.post(baseURL, { fields: newVerb }, config);
+    }
+ 
     props.setToggleFetch((curr) => !curr);
   }
   return (
@@ -50,6 +53,34 @@ function Form(props) {
         id="english"
         value={english}
         onChange={(e) => setEnglish(e.target.value)}
+      />
+      <label htmlFor="spanish">Spanish: </label>
+      <input
+        type="text"
+        id="spanish"
+        value={spanish}
+        onChange={(e) => setSpanish(e.target.value)}
+      />
+      <label htmlFor="italian">Italian: </label>
+      <input
+        type="text"
+        id="italian"
+        value={italian}
+        onChange={(e) => setItalian(e.target.value)}
+      />
+      <label htmlFor="portuguese">Portuguese: </label>
+      <input
+        type="text"
+        id="portuguese"
+        value={portuguese}
+        onChange={(e) => setPortuguese(e.target.value)}
+      />
+      <label htmlFor="image">Url for Image: </label>
+      <input
+        type="url"
+        id="image"
+        value={image}
+        onChange={(e) => setImage(e.target.value)}
       />
       <button type="submit">Culture Me</button>
     </form>

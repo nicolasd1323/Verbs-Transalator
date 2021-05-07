@@ -5,7 +5,7 @@ import { baseURL, config } from "./services";
 import Nav from "./components/Nav";
 import { Route } from "react-router-dom";
 import Form from "./components/Form";
-
+import Verb from "./components/Verb";
 
 
 function App() {
@@ -19,11 +19,16 @@ function App() {
     }
     fetchVerbs();
   }, [toggleFetch]);
-
+  
   return (
     <div className="App">
       <Nav />
       <Route exact path="/">
+      <main>
+          {verbs.map((verb) => (
+            <Verb verb={verb} setToggleFetch={setToggleFetch} />
+          ))}
+        </main>
       </Route>
       <Route path="/culture us">
       <Form verbs={verbs}  
