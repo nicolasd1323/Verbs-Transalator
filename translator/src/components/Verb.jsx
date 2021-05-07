@@ -1,7 +1,8 @@
 import axios from "axios";
 import { baseURL, config } from "../services";
-// import { Link } from "react-router-dom";
+
 function Verb(props) {
+
 
   const deleteVerb = async () => {
     const specificURL = `${baseURL}/${props.verb.id}`
