@@ -12,6 +12,10 @@ The idea of this project is to have a functional and dynamic verb translator wit
 ## Wireframes   
 
 https://wireframe.cc/pro/edit/439142
+Screen Shot 2021-05-07 at 10.44.37 AM![image](https://user-images.githubusercontent.com/81534592/117467170-719f9f00-af21-11eb-8628-f02c8c1f17fe.png)
+Screen Shot 2021-05-07 at 10.45.34 AM![image](https://user-images.githubusercontent.com/81534592/117467203-77958000-af21-11eb-81a9-b556b23c7cec.png)
+Screen Shot 2021-05-07 at 10.45.46 AM![image](https://user-images.githubusercontent.com/81534592/117467232-7e23f780-af21-11eb-99dc-ed806b704267.png)
+
 
 ## Component Hierarchy  
 https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlowId=65630715FEF752ED&page=0_0#
