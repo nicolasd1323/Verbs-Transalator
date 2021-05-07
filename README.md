@@ -12,9 +12,14 @@ The idea of this project is to have a functional and dynamic verb translator wit
 ## Wireframes   
 
 https://wireframe.cc/pro/edit/439142
+Monitor
 Screen Shot 2021-05-07 at 10.44.37 AM![image](https://user-images.githubusercontent.com/81534592/117467170-719f9f00-af21-11eb-8628-f02c8c1f17fe.png)
 Screen Shot 2021-05-07 at 10.45.34 AM![image](https://user-images.githubusercontent.com/81534592/117467203-77958000-af21-11eb-81a9-b556b23c7cec.png)
 Screen Shot 2021-05-07 at 10.45.46 AM![image](https://user-images.githubusercontent.com/81534592/117467232-7e23f780-af21-11eb-99dc-ed806b704267.png)
+Iphone
+Screen Shot 2021-05-07 at 12.08.09 PM![image](https://user-images.githubusercontent.com/81534592/117478881-b3cedd80-af2d-11eb-9139-245fea952de7.png)
+Screen Shot 2021-05-07 at 12.11.14 PM![image](https://user-images.githubusercontent.com/81534592/117478898-b8939180-af2d-11eb-98c3-b0f294c6609f.png)
+Screen Shot 2021-05-07 at 12.13.12 PM![image](https://user-images.githubusercontent.com/81534592/117478921-be897280-af2d-11eb-95b8-486a5b7a0a91.png)
 
 
 ## Component Hierarchy  
