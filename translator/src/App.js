@@ -2,7 +2,7 @@ import { useEffect, useState} from "react";
 import axios from "axios";
 import './App.css';
 import { baseURL, config } from "./services";
-
+import Nav from "./components/Nav";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-
+<Nav />
     </div>
 
     
