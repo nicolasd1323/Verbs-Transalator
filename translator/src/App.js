@@ -3,11 +3,14 @@ import axios from "axios";
 import './App.css';
 import { baseURL, config } from "./services";
 import Nav from "./components/Nav";
+import { Route } from "react-router-dom";
+import Form from "./components/Form";
+
 
 
 function App() {
   const [verbs, setVerbs] = useState([]);
-  const [toggleFetch, setToggleFetch] = useState(false);
+  const [toggleFetch, setToggleFetch] = useState(true);
   
   useEffect(() => {
     const fetchVerbs = async () => {
@@ -19,7 +22,13 @@ function App() {
 
   return (
     <div className="App">
-<Nav />
+      <Nav />
+      <Route exact path="/">
+      </Route>
+      <Route path="/culture us">
+      <Form verbs={verbs}  
+        setToggleFetch={setToggleFetch} />
+      </Route>
     </div>
 
     

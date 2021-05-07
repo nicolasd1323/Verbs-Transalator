@@ -2,10 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  width: 100vw;
+  padding: 30px;
+  box-sizing: border-box;
+  display: grid;
+  grid-row: inherit;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
