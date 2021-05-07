@@ -112,7 +112,6 @@ Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercont
 | routing the app | H | 3hrs| hrs | hrs |
 | rendering data on the page | H | 4hrs| hrs | hrs |
 | functionality of form to add | H |4 hrs| hrs | hrs |
-| form input | H | 3hrs| hrs | hrs |
 | functionality of buttons to see and delete verbs| M | 2hrs| hrs | hrs |
 | Grid and Flex CSS | H | 5hrs| hrs | hrs |
 | Inserting external links| H | 1hrs| hrs | hrs |
@@ -123,7 +122,7 @@ Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercont
 
 
 
-| Total | H | 40hrs| hrs | hrs |
+| Total | H | 37hrs| hrs | hrs |
 
 ## SWOT Analysis
 
