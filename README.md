@@ -15,6 +15,8 @@ https://wireframe.cc/pro/edit/439142
 
 ## Component Hierarchy  
 https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlowId=65630715FEF752ED&page=0_0#
+Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercontent.com/81534592/117466756-1077cb80-af21-11eb-9687-68c324782aea.png)
+
 
 ## API and Data Sample
 
@@ -97,19 +99,27 @@ https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlo
 
 ## Timeframes
 
+## Timeframes
+
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 5hrs| hrs | hrs |
-| structure of the page | 5H | hrs| hrs | hrs |
-| funtionality of the page | 5H | hrs| hrs | hrs |
-| Grid and Flex CSS | H | 6hrs| hrs | hrs |
-| Inserting external links| 1H | hrs| hrs | hrs |
-| Using second API| 5H | hrs| hrs | hrs |
-| Final Adjustments| H | 4hrs| hrs | hrs |
+| working with components hierarchy | H | 3hrs| hrs | hrs |
+| structure of the page | H | 4hrs| hrs | hrs |
+| routing the app | H | 3hrs| hrs | hrs |
+| rendering data on the page | H | 4hrs| hrs | hrs |
+| functionality of form to add | H |4 hrs| hrs | hrs |
+| form input | H | 3hrs| hrs | hrs |
+| functionality of buttons to see and delete verbs| M | 2hrs| hrs | hrs |
+| Grid and Flex CSS | H | 5hrs| hrs | hrs |
+| Inserting external links| H | 1hrs| hrs | hrs |
+| dark mode page| M | 3hrs| hrs | hrs |
+| Using second API| L | 4hrs| hrs | hrs |
+| Final Adjustments| M | 4hrs| hrs | hrs |
 
 
 
-| Total | H | 31hrs| hrs | hrs |
+
+| Total | H | 40hrs| hrs | hrs |
 
 ## SWOT Analysis
 
