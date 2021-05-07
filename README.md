@@ -1,6 +1,6 @@
 # Project Overview
 
-##  Multi language verbs-transalator
+##  Romantic Verbs
 
 
 ## Project Description
@@ -17,6 +17,8 @@ https://wireframe.cc/pro/edit/439142
 https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlowId=65630715FEF752ED&page=0_0#
 
 ## API and Data Sample
+
+
 
 
 ```
@@ -66,24 +68,26 @@ https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlo
 
 
 - create and use external API from AirTable.com
-- Use react for DOM manupalation
-- Allow user to contribute words in any of the different languges teh app will have, (English, Spanish, Portuguese, Italian) and or a image to represent the verb.
-- Allow the user to see and read each indidual verb in a specific route.
+- Use react for DOM manipulation
+- Allow users to contribute words in any of the different languages the app will have, (English, Spanish, Portuguese, Italian) and or an image to represent the verb.
+- Allow the user to see and read each individual verb in a specific route.
 -Implement Grid and/or Flex to style the application.
+
 
 #### PostMVP  
 
 
-- Add second API with countries name and their native language.
-- Allow the users to see page in two differen colors.
+- Add a second API with the country's name and their native language.
+- Allow the users to see the page in two different colors.
 - Provide links for users to find online language classes. 
+
 
 ## Project Schedule
 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 6-7| Prompt / Wireframes / Priority Matrix / Timeframes/ Project Approval| Incomplete
+|May 6-7| Prompt / Wireframes/ Timeframes/ Project Approval| Incomplete
 |May 8-9| Structure the application | Incomplete
 |May 10-11| coding / finish react work | Incomplete
 |May 12-13| styling / MVP  | Incomplete
@@ -113,9 +117,9 @@ https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlo
 Ability to manipulate API data on my application.
 
 ### Weaknesses:
-Time distribution to dedicated to each my specific part of my application.
+Time management.
 
 ### Opportunities:
-The opporunity to keep growing and becoming a better sofware engineer using react.
+The opportunity to keep growing and becoming a better software engineer using react.
 ### Threats:
-Not being able to challenge myself more and having lack of ideas or creativity.
+Not being able to challenge myself more and having a lack of ideas or creativity.
