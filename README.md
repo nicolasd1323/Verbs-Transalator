@@ -9,9 +9,9 @@ The idea of this project is to have a functional and dynamic verb translator wit
 
 
 
-## Wireframes    not done
+## Wireframes   
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://wireframe.cc/pro/edit/439142
 
 ## Component Hierarchy  
 https://lucid.app/lucidchart/eac5d08c-907f-4d20-9c93-ea43b297b898/edit?beaconFlowId=65630715FEF752ED&page=0_0#
