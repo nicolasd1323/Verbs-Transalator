@@ -4,7 +4,7 @@ function Nav() {
     <nav>
       <Link to="/">Romantic Verbs</Link>
       <Link to="/culture Us">Culture Us</Link>
-
+   
     </nav>
   )
 }

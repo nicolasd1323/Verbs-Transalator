@@ -28,21 +28,21 @@ function App() {
       <Nav />
       <Route exact path="/">
         <main>
-          {verbs.map((verb) => (
+        {verbs.map((verb) => (
             <Verb verb={verb} setToggleFetch={setToggleFetch} />
-            ))}
+          ))}
         </main>
         <Button />
         <Footer />
-        <Route path="/study/:name">
-        <Study verbs={verbs} />
-        </Route>
       </Route>
       <Route path="/culture us">
         <Form verbs={verbs} setToggleFetch={setToggleFetch} />
       </Route>
-     
-     
+      
+        <Route path="/studyPage/:verb">
+        <Study verbs={verbs} />
+        </Route>
+    
     </div>
   );
 }
