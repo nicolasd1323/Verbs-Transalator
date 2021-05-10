@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Inconsolata', monospace;
 }
 
 nav {
@@ -8,6 +9,7 @@ nav {
   box-sizing: border-box;
   display: grid;
   grid-row: inherit;
+  font-size: 45px;
 }
 
   .oneVerb img {
@@ -19,7 +21,12 @@ nav {
 }
 
 
-
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 100px;
+  background-color: transparent;
+}
 
 .oneVerb {
   height: 350px;
@@ -27,6 +34,7 @@ nav {
   display: grid;
   grid-area:auto;
   grid-template-rows: repeat(3fr 1fr);
+  font-family: 'Inconsolata', monospace;
 }
 
 @media (prefers-reduced-motion: no-preference) {
