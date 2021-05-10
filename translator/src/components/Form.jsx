@@ -46,7 +46,7 @@ function Form(props) {
     props.setToggleFetch((curr) => !curr);
   }
   return (
-    <div>
+    <div className="form">
       <img  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150127741/original/bc00148fd1082c4ab62cb3b5d89aa7a3c743d388/translate-from-english-spanish-or-portuguese-to-italian.png"/>
     <form onSubmit={handleSubmit}>
       <label htmlFor="english">English: </label>
@@ -77,7 +77,7 @@ function Form(props) {
         value={portuguese}
         onChange={(e) => setPortuguese(e.target.value)}
       />
-      <label htmlFor="image">Url for Image: </label>
+      <label htmlFor="image">Image URL: </label>
       <input
         type="url"
         id="image"
