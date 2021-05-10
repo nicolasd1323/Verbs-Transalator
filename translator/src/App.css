@@ -36,7 +36,13 @@ main {
   grid-template-rows: repeat(3fr 1fr);
   font-family: 'Inconsolata', monospace;
 }
-
+.dark {
+  background: black;
+  color: #61dafb;
+}
+.dark h1 {
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
 
 }
