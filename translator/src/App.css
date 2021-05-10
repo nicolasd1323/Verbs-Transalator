@@ -27,6 +27,9 @@ main {
   padding-left: 100px;
   background-color: transparent;
 }
+main .dark{
+  padding-left: -15pc;
+}
 
 .oneVerb {
   height: 350px;
@@ -36,6 +39,8 @@ main {
   grid-template-rows: repeat(3fr 1fr);
   font-family: 'Inconsolata', monospace;
 }
+
+
 .dark {
   background: black;
   color: #61dafb;
@@ -62,7 +67,11 @@ main {
   color: #61dafb;
 }
 
-
+.dictionaries {
+  background-color:grey;
+  color:navy;
+  font-size: 22px;
+}
 
 @keyframes App-logo-spin {
   from {

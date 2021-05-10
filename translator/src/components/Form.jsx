@@ -46,6 +46,8 @@ function Form(props) {
     props.setToggleFetch((curr) => !curr);
   }
   return (
+    <div>
+      <img  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150127741/original/bc00148fd1082c4ab62cb3b5d89aa7a3c743d388/translate-from-english-spanish-or-portuguese-to-italian.png"/>
     <form onSubmit={handleSubmit}>
       <label htmlFor="english">English: </label>
       <input
@@ -83,7 +85,8 @@ function Form(props) {
         onChange={(e) => setImage(e.target.value)}
       />
       <button type="submit">Culture Me</button>
-    </form>
+      </form>
+      </div>
   );
 }
 export default Form;

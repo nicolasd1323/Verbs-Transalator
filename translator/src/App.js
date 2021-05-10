@@ -7,6 +7,9 @@ import { Route } from "react-router-dom";
 import Form from "./components/Form";
 import Verb from "./components/Verb";
 import Button from "./components/Button";
+import Footer from "./components/Footer"
+import Study from "./components/Study"
+import { Link } from "react-router-dom";
 
 function App() {
   const [verbs, setVerbs] = useState([]);
@@ -27,13 +30,19 @@ function App() {
         <main>
           {verbs.map((verb) => (
             <Verb verb={verb} setToggleFetch={setToggleFetch} />
-          ))}
+            ))}
         </main>
+        <Button />
+        <Footer />
+        <Route path="/study/:name">
+        <Study verbs={verbs} />
+        </Route>
       </Route>
       <Route path="/culture us">
         <Form verbs={verbs} setToggleFetch={setToggleFetch} />
       </Route>
-      <Button />
+     
+     
     </div>
   );
 }
