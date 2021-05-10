@@ -6,11 +6,14 @@ import Nav from "./components/Nav";
 import { Route } from "react-router-dom";
 import Form from "./components/Form";
 import Verb from "./components/Verb";
+import Dark from "./components/Dark";
+
 
 
 function App() {
   const [verbs, setVerbs] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(() => false);
   
   useEffect(() => {
     const fetchVerbs = async () => {
