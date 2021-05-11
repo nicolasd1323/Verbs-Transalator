@@ -1,8 +1,8 @@
-import React from "react";
+import { useState, useEffect} from "react";
 
 function Button(props) {
-  const [darkMode, setDarkMode] = React.useState(false);
-  React.useEffect(() => {
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
     const json = localStorage.getItem("site-dark-mode");
     const currentMode = JSON.parse(json);
     if (currentMode) {
@@ -12,7 +12,7 @@ function Button(props) {
     }
   }, []);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
     } else {

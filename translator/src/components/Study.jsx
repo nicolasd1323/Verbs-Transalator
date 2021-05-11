@@ -5,8 +5,8 @@ import { useParams } from "react-router-dom"
 function Study(props) {
 
   const params = useParams();
-  const verb = props.verbs.find((verb) => verb.english === params.english)
- 
+  const verb = props.verbs.find((verb) => verb.fields.english === params.verb)
+ console.log(props.verbs)
   if (!verb) {
     return (
       <h2>

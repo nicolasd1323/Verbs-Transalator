@@ -40,7 +40,7 @@ function App() {
       </Route>
       
         <Route path="/studyPage/:verb">
-        <Study verbs={verbs} />
+        <Study verbs={verbs}  />
         </Route>
     
     </div>
