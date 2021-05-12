@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 nav {
@@ -12,22 +12,20 @@ nav {
   font-size: 45px;
 }
 
-  .oneVerb img {
+.oneVerb img {
   height: 100px;
-  width: 100px; 
+  width: 100px;
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 .study img {
   height: 300px;
-  width: 300px; 
-  
+  width: 300px;
 }
 .forms img {
-  height: 400px ;
+  height: 400px;
   width: 600px;
 }
-
 
 main {
   display: grid;
@@ -36,11 +34,11 @@ main {
   background-color: transparent;
 }
 
-.study{
+.study {
   display: flex;
   justify-content: center;
 }
-main .dark{
+main .dark {
   padding-left: -15pc;
 }
 
@@ -48,9 +46,9 @@ main .dark{
   height: 350px;
   width: 200px;
   display: grid;
-  grid-area:auto;
+  grid-area: auto;
   grid-template-rows: repeat(3fr 1fr);
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 .dark {
@@ -61,7 +59,6 @@ main .dark{
   color: white;
 }
 @media (prefers-reduced-motion: no-preference) {
-
 }
 
 .App-header {
@@ -81,7 +78,7 @@ main .dark{
 
 .dictionaries {
   height: 55px;
-  background-color:#61dafb;
+  background-color: #61dafb;
   font-size: 22px;
   display: flex;
   justify-content: space-between;
@@ -102,70 +99,62 @@ main .dark{
   }
 }
 
-@media only screen 
-    and (min-device-width: 375px) 
-    and (min-device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: portrait) {
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   main {
-        display: grid;
-        grid-template-columns: 0mm;
-        padding-left: 190px;
-        background-color: transparent;
-
-    }
-    .dictionaries {
-      height: 20px;
-      background-color:#61dafb;
-      font-size: 10px;
-      display: flex;
-      justify-content: space-between;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .dictionaries img {
-      height: 20px;
-      width: 35px;
-    }
+    display: grid;
+    grid-template-columns: 0mm;
+    padding-left: 190px;
+    background-color: transparent;
+  }
+  .dictionaries {
+    height: 20px;
+    background-color: #61dafb;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .dictionaries img {
+    height: 20px;
+    width: 35px;
+  }
   .forms {
-      display: grid;
-      align-items:flex-start;
-      font-size: 37px;
-      text-align: left;
-    }
+    display: grid;
+    align-items: flex-start;
+    font-size: 37px;
+    text-align: left;
+  }
   .forms img {
-      height: 300px;
-      width: 400px;
-    }
-    .study img {
-      height: 200px;
-      width: 200px; 
-    }
-    .study {
-      padding-left: 20px;
-
-    }
+    height: 300px;
+    width: 400px;
   }
-  @media only screen 
-    and (min-device-width: 768px) 
-    and (min-device-height: 1024px) {
-      .forms {
-        display: grid;
-        align-items:flex-start;
-        font-size: 33px;
-        text-align: left;
-        padding-left: 60px;
-        padding-top: 10px;
-      }
-    .forms img {
-        height: 500px;
-        width: 500px;
-    }
-    .study{
-      font-size: 30px;
-    }
-    .study img {
-      height: 400px;
-      width: 400px; 
-    }
+  .study img {
+    height: 200px;
+    width: 200px;
   }
+  .study {
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (min-device-height: 1024px) {
+  .forms {
+    display: grid;
+    align-items: flex-start;
+    font-size: 33px;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  .forms img {
+    height: 500px;
+    width: 500px;
+  }
+  .study {
+    font-size: 30px;
+  }
+  .study img {
+    height: 400px;
+    width: 400px;
+  }
+}
