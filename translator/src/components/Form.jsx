@@ -49,7 +49,8 @@ function Form(props) {
     props.setToggleFetch((curr) => !curr);
   }
   return (
-    <div className="form">
+   
+    <div className="forms">
       <img  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150127741/original/bc00148fd1082c4ab62cb3b5d89aa7a3c743d388/translate-from-english-spanish-or-portuguese-to-italian.png"/>
     <form onSubmit={handleSubmit}>
       <label htmlFor="english">English: </label>
@@ -90,13 +91,14 @@ function Form(props) {
         <label htmlFor="gif">Gif URL: </label>
       <input
         type="url"
-        id="gif"
+        id="image"
         value={gif}
-        onChange={(e) => setImage(e.target.value)}
+        onChange={(e) => setGif(e.target.value)}
       />
       <button type="submit">Culture Me</button>
       </form>
       </div>
+    
   );
 }
 export default Form;

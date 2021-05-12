@@ -13,19 +13,32 @@ nav {
 }
 
   .oneVerb img {
-
   height: 100px;
   width: 100px; 
   display: flex;
   align-items:flex-start;
+}
+.study img {
+  height: 300px;
+  width: 300px; 
+  
+}
+.forms img {
+  height: 400px ;
+  width: 600px;
 }
 
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 100px;
+  justify-items: center;
   background-color: transparent;
+}
+
+.study{
+  display: flex;
+  justify-content: center;
 }
 main .dark{
   padding-left: -15pc;
@@ -39,15 +52,6 @@ main .dark{
   grid-template-rows: repeat(3fr 1fr);
   font-family: 'Inconsolata', monospace;
 }
-.oneVerbs {
-  height: 350px;
-  width: 200px;
-  display: grid;
-  grid-area:auto;
-  grid-template-rows: repeat(3fr 1fr);
-  font-family: 'Inconsolata', monospace;
-}
-
 
 .dark {
   background: black;
@@ -76,9 +80,17 @@ main .dark{
 }
 
 .dictionaries {
-  background-color:grey;
-  color:navy;
+  height: 55px;
+  background-color:#61dafb;
   font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dictionaries img {
+  height: 54px;
+  width: 100px;
 }
 
 @keyframes App-logo-spin {
@@ -95,16 +107,65 @@ main .dark{
     and (min-device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3)
     and (orientation: portrait) {
-   main {
+  main {
         display: grid;
         grid-template-columns: 0mm;
-        
-        padding-left: 100px;
+        padding-left: 190px;
         background-color: transparent;
 
     }
-    .form{
-      font-size: 27px;
+    .dictionaries {
+      height: 20px;
+      background-color:#61dafb;
+      font-size: 10px;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
     }
-    
+    .dictionaries img {
+      height: 20px;
+      width: 35px;
+    }
+  .forms {
+      display: grid;
+      align-items:flex-start;
+      font-size: 37px;
+      text-align: left;
+    }
+  .forms img {
+      height: 300px;
+      width: 400px;
+    }
+    .study img {
+      height: 200px;
+      width: 200px; 
+    }
+    .study {
+      padding-left: 20px;
+
+    }
+  }
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (min-device-height: 1024px) {
+      .forms {
+        display: grid;
+        align-items:flex-start;
+        font-size: 33px;
+        text-align: left;
+        padding-left: 60px;
+        padding-top: 10px;
+      }
+    .forms img {
+        height: 500px;
+        width: 500px;
+    }
+    .study{
+      font-size: 30px;
+    }
+    .study img {
+      height: 400px;
+      width: 400px; 
+    }
   }

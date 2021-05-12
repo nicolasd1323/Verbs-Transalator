@@ -27,12 +27,12 @@ function App() {
     <div className="App">
       <Nav />
       <Route exact path="/">
+          <Button />
         <main>
         {verbs.map((verb) => (
             <Verb verb={verb} setToggleFetch={setToggleFetch} />
           ))}
         </main>
-        <Button />
         <Footer />
       </Route>
       <Route path="/culture us">
