@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 
 
 function Study(props) {
+  
 
   const params = useParams();
   const verb = props.verbs.find((verb) => verb.fields.english === params.verb)
@@ -18,6 +19,7 @@ function Study(props) {
   
   return (
     <div className="oneVerb">
+      <img src={verb.fields.gif} />
       <table border={4} cellPadding={8}>
       <img src={verb.fields.image} />
 <h2>English: {verb.fields.english}</h2>  
