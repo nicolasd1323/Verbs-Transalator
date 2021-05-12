@@ -10,6 +10,7 @@ function Form(props) {
   const [italian, setItalian] = useState("");
   const [portuguese, setPortuguese] = useState("");
   const [image, setImage] = useState("");
+  const [gif, setGif] = useState("");
   const params = useParams();
   
   useEffect(() => {
@@ -24,6 +25,7 @@ function Form(props) {
         setItalian(verb.fields.italian);
         setPortuguese(verb.fields.portuguese);
         setImage(verb.fields.image);
+        setGif(verb.fields.gif)
       }
     }
   }, [props.verbs, params.id]);
@@ -35,6 +37,7 @@ function Form(props) {
       italian,
       portuguese,
       image,
+      gif,
     };
     if (params.id) {
       const specificURL = `${baseURL}/${params.id}`;
@@ -82,6 +85,13 @@ function Form(props) {
         type="url"
         id="image"
         value={image}
+        onChange={(e) => setImage(e.target.value)}
+        />
+        <label htmlFor="gif">Gif URL: </label>
+      <input
+        type="url"
+        id="gif"
+        value={gif}
         onChange={(e) => setImage(e.target.value)}
       />
       <button type="submit">Culture Me</button>
