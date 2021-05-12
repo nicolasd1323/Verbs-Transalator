@@ -18,12 +18,13 @@ function Study(props) {
   
   return (
     <div className="oneVerb">
-<img src={verb.fields.image} />
+      <table border={4} cellPadding={8}>
+      <img src={verb.fields.image} />
 <h2>English: {verb.fields.english}</h2>  
 <h3>Spanish: {verb.fields.spanish} </h3>
 <h3>Portuguese: {verb.fields.portuguese}</h3>
 <h3>Italian:{verb.fields.italian}</h3>
-
+</table>
       
   </div>
 

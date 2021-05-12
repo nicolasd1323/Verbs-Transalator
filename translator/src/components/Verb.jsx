@@ -18,8 +18,8 @@ function Verb(props) {
       <table border={4} cellPadding={8}>
         <Link to={`/studyPage/${english}`}>
         <img src={image} />
-        </Link>
         <h2>English: {english}</h2>
+        </Link>
         <h3>Spanish: {spanish}</h3>
         <h3>Italian: {italian}</h3>
         <h3>Portuguese: {portuguese}</h3>

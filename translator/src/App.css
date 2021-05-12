@@ -39,6 +39,14 @@ main .dark{
   grid-template-rows: repeat(3fr 1fr);
   font-family: 'Inconsolata', monospace;
 }
+.oneVerbs {
+  height: 350px;
+  width: 200px;
+  display: grid;
+  grid-area:auto;
+  grid-template-rows: repeat(3fr 1fr);
+  font-family: 'Inconsolata', monospace;
+}
 
 
 .dark {
