@@ -16,15 +16,15 @@ function Verb(props) {
     <div className="oneVerb">
       
       <table border={4} cellPadding={8}>
-        <h2>English: {english}</h2>
         <img src={image} />
+        <h2>English: {english}</h2>
         <h3>Spanish: {spanish}</h3>
         <h3>Italian: {italian}</h3>
         <h3>Portuguese: {portuguese}</h3>
         <Link to={`/studyPage/${english}`}>
         <button type="submit">Study Me</button>
         </Link>
-        <button onClick={deleteVerb}>Incorrect</button>
+        <button onClick={deleteVerb}>Delete Me</button>
       </table>
     </div>
     
