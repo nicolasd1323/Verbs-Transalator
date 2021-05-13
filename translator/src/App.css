@@ -128,16 +128,12 @@ main .dark {
   .forms {
     display: grid;
     align-items: flex-start;
-    font-size: 37px;
+    font-size: 36px;
     text-align: left;
   }
   .forms img {
     height: 300px;
     width: 400px;
-  }
-  .git img{
-    height: 20px;
-    width: 20px;
   }
   .study img {
     height: 200px;
@@ -147,7 +143,7 @@ main .dark {
     padding-left: 20px;
   }
 }
-@media only screen and (max-device-width: 768px) and (max-device-height: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (min-device-height: 1024px) (max-device-height: 1024px){
   .forms {
     display: grid;
     align-items: flex-start;
