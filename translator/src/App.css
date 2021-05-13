@@ -10,6 +10,7 @@ nav {
   display: grid;
   grid-row: inherit;
   font-size: 45px;
+  background-color: #61dafb;
 }
 
 .oneVerb img {
@@ -22,10 +23,7 @@ nav {
   height: 300px;
   width: 300px;
 }
-.forms img {
-  height: 400px;
-  width: 600px;
-}
+
 
 main {
   display: grid;
@@ -50,6 +48,7 @@ main .dark {
   grid-template-rows: repeat(3fr 1fr);
   font-family: "Inconsolata", monospace;
 }
+
 
 .dark {
   background: black;
@@ -89,6 +88,12 @@ main .dark {
   height: 54px;
   width: 100px;
 }
+
+.forms img {
+  height: 600px;
+  width: 800px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -137,7 +142,7 @@ main .dark {
     padding-left: 20px;
   }
 }
-@media only screen and (min-device-width: 768px) and (min-device-height: 1024px) {
+@media only screen and (max-device-width: 768px) and (max-device-height: 1024px) {
   .forms {
     display: grid;
     align-items: flex-start;
