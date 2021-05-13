@@ -89,7 +89,6 @@ Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercont
 #### PostMVP  
 
 
-- Add a second API with the country's name and their native language.
 - Allow the users to see the page in two different colors.
 - Provide links for users to find online language classes. 
 
@@ -107,28 +106,27 @@ Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercont
 |May 14|Presentation | Incomplete
 
 
-## Timeframes
+
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| working with components hierarchy | H | 3hrs| hrs | hrs |
-| structure of the page | H | 4hrs| hrs | hrs |
-| routing the app | H | 3hrs| hrs | hrs |
-| rendering data on the page | H | 4hrs| hrs | hrs |
-| functionality of form to add | H |4 hrs| hrs | hrs |
-| functionality of buttons to see and delete verbs| M | 2hrs| hrs | hrs |
-| Grid and Flex CSS | H | 5hrs| hrs | hrs |
-| Inserting external links| H | 1hrs| hrs | hrs |
-| dark mode page| M | 3hrs| hrs | hrs |
-| Using second API| L | 4hrs| hrs | hrs |
-| Final Adjustments| M | 4hrs| hrs | hrs |
+| working with components hierarchy | H | 3hrs| 3hrs | 3hrs |
+| structure of the page | H | 4hrs| 3hrs | 3hrs |
+| routing the app | H | 3hrs| 3hrs | 3hrs |
+| rendering data on the page | H | 4hrs| 3hrs | 3hrs |
+| functionality of form to add | H |4 hrs| 4hrs | 4hrs |
+| functionality of buttons to see and delete verbs| M | 2hrs| 4hrs | 4hrs |
+| Grid and Flex CSS | H | 5hrs| 6hrs | 6hrs |
+| Inserting external links| H | 1hrs| 0.5hrs | 0.5hrs |
+| dark mode page| M | 3hrs| 3hrs | 3hrs |
+| Final Adjustments| M | 4hrs| 8hrs | 8hrs |
 
 
 
 
-| Total | H | 37hrs| hrs | hrs |
+| Total | H | 33hrs| 37.5hrs | 37.5hrs |
 
 ## SWOT Analysis
 
