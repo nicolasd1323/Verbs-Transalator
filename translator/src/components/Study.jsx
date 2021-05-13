@@ -21,7 +21,7 @@ function Study(props) {
     <main className="study">
     <div>
       <table border={6} cellPadding={8}>
-      <img src={verb.fields.gif} />
+      <img src={verb.fields.gif} alt="" />
 <h2>English: {verb.fields.english}</h2>  
 <h3>Spanish: {verb.fields.spanish} </h3>
 <h3>Portuguese: {verb.fields.portuguese}</h3>

@@ -16,7 +16,7 @@ function Verb(props) {
     <div className="oneVerb">
       
       <table border={4} cellPadding={8}>
-        <img src={image} />
+        <img src={image} alt=""/>
         <h2>English: {english}</h2>
         <h3>Spanish: {spanish}</h3>
         <h3>Italian: {italian}</h3>

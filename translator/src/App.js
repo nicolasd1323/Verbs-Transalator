@@ -9,7 +9,6 @@ import Verb from "./components/Verb";
 import Button from "./components/Button";
 import Footer from "./components/Footer"
 import Study from "./components/Study"
-import { Link } from "react-router-dom";
 
 function App() {
   const [verbs, setVerbs] = useState([]);

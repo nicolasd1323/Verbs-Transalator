@@ -51,7 +51,7 @@ function Form(props) {
   return (
    
     <div className="forms">
-      <img  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150127741/original/bc00148fd1082c4ab62cb3b5d89aa7a3c743d388/translate-from-english-spanish-or-portuguese-to-italian.png"/>
+      <img  src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150127741/original/bc00148fd1082c4ab62cb3b5d89aa7a3c743d388/translate-from-english-spanish-or-portuguese-to-italian.png" alt=""/>
     <form onSubmit={handleSubmit}>
       <label htmlFor="english">English: </label>
       <input
