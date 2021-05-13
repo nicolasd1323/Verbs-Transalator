@@ -25,6 +25,7 @@ nav {
 }
 
 
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -133,6 +134,10 @@ main .dark {
   .forms img {
     height: 300px;
     width: 400px;
+  }
+  .git img{
+    height: 20px;
+    width: 20px;
   }
   .study img {
     height: 200px;

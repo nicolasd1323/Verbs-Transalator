@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { baseURL, config } from "../services";
-
+import Footer from "./Footer"
 
 function Form(props) {
   const [english, setEnglish] = useState("");
@@ -98,7 +98,6 @@ function Form(props) {
       <button type="submit">Culture Me</button>
       </form>
       </div>
-    
   );
 }
 export default Form;
