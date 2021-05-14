@@ -98,12 +98,12 @@ Screen Shot 2021-05-07 at 10.42.32 AM![image](https://user-images.githubusercont
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 6-7| Prompt / Wireframes/ Timeframes/ Project Approval| Incomplete
-|May 8-9| Structure the application | Incomplete
-|May 10-11| coding / finish react work | Incomplete
-|May 12-13| styling / MVP  | Incomplete
-|July 15|Post MVP  | Incomplete
-|May 14|Presentation | Incomplete
+|May 6-7| Prompt / Wireframes/ Timeframes/ Project Approval| complete
+|May 8-9| Structure the application | complete
+|May 10-11| coding / finish react work | complete
+|May 12-13| styling / MVP  | complete
+|July 15|Post MVP  | complete
+|May 14|Presentation | 
 
 
 
